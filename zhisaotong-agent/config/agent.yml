@@ -1,0 +1,9 @@
+external_data_path: data/external/records.csv
+
+### 高德 API 地址
+# 地理编码 (城市名 -> Adcode)
+amap_geo_url: https://restapi.amap.com/v3/geocode/geo
+# 天气查询
+amap_weather_url: https://restapi.amap.com/v3/weather/weatherInfo
+ # IP定位
+amap_ip_url: https://restapi.amap.com/v3/ip

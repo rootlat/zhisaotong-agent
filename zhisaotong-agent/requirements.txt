@@ -1,0 +1,48 @@
+# FastAPI Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+pymysql==1.1.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+PyJWT==2.8.1
+
+# Vector Database (Milvus)
+pymilvus==2.3.6
+
+# Cache & Message Queue
+redis==5.0.1
+aio-pika==9.0.5
+
+# LLM Framework
+langchain==0.1.10
+langchain-community==0.0.24
+langchain-core==0.1.24
+
+# Chinese Text Processing
+jieba==0.42.1
+
+# Configuration
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# HTTP & Requests
+requests==2.31.0
+httpx==0.25.2
+
+# Utilities
+markdown==3.5.1
+beautifulsoup4==4.12.2
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.0
+flake8==6.1.0

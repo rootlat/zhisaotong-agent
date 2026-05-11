@@ -1,0 +1,11 @@
+###### 这个配置文件放置提示词文本文件的相对路径
+
+
+# 主要提示词
+main_prompt_path: "prompts/main_prompt.txt"
+
+# RAG总结提示词
+rag_summarize_prompt_path: "prompts/rag_summarize.txt"
+
+# 报告生成提示词
+report_prompt_path: "prompts/report_prompt.txt"

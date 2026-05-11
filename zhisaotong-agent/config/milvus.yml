@@ -1,0 +1,24 @@
+###### 这个配置文件放置 Milvus 向量库配置信息
+
+host: 127.0.0.1
+port: 19530
+user: root
+password: Milvus
+collection: file_chunks
+
+# 检索相似信息条数
+k: 5
+
+# 向量数据库查询条数
+limit: 10
+
+# 取 TopN
+top: 5
+
+# 阈值
+hit: 0.4
+
+# 文本切分
+chunk_size: 200
+chunk_overlap: 20
+separators: ["\n\n", "\n", ".", "!", "?", "。", "！", "？", " ", ""]

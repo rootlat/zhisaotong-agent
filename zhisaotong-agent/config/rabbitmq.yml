@@ -1,0 +1,13 @@
+###### 这个配置文件放置 RabbitMQ 消息队列配置信息
+
+
+host: 127.0.0.1
+port: 5672
+user: root
+password: 123456
+
+# 交换机
+
+### 队列
+# 文件解析队列
+file_parse_queue: file_parse_queue

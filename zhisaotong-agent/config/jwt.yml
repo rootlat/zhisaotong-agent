@@ -1,0 +1,8 @@
+###### 这个配置文件放置 JWT用户Token签名 配置信息
+
+
+# 生产环境必须改！
+secret_key: 9b85f7d23e6a1c408d2f976b3a5d8e0f2c7b916403a2d5f8e1c9b027d685f1a3
+algorithm: HS256
+# 默认保存7天 (60*24*7 = 10080 分钟)
+access_token_expire_time: 10080

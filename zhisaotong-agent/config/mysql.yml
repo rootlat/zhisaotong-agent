@@ -1,0 +1,16 @@
+###### 这个配置文件放置 MYSQL 数据库配置信息
+
+host: 127.0.0.1
+user: root
+password: 123456
+port: 3306
+database: zhisaotong_agent
+
+# 输出SQL日志
+echo: false
+# 设置连接池中保持的持久连接数
+pool_size: 10
+# 设置连接池允许创建的额外连接数
+max_overflow: 20
+# 防止中文乱码
+charset: utf8mb4

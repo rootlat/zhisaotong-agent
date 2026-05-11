@@ -1,0 +1,11 @@
+###### 这个配置文件提供所需存放文件的目录
+
+
+# 日志文件
+logs_dir: logs
+
+# 用户生成知识文件
+upload_file_dir: uploads
+
+# 默认知识
+local_knowledge_dir: data
